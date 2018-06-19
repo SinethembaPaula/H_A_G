@@ -1,11 +1,331 @@
 body {
-    color : #FFFFFF;
     background-color: #C8C8C8;
 }
 
+.btn-success {
+    background-color: #488888;
+    border: none;
+    color: white;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
 .navbar-default {
-    color: #FFFFFF;
+    color: white;
     background-color: #408080;
     height: 110px;
 }
+
+li {
+    display: inline;
+}
+
+
+
+
+/* Home Section */
+
+.intro {
+
+	display: table;
+
+	width: 100%;
+
+	height: auto;
+
+	text-align: center;
+
+	color: #43464b;
+
+	
+
+}
+
+
+/* Contact Section */
+
+#contact {
+
+	background-color: #C8C8C8
+}
+
+#contact .overlay {
+
+	padding: 100px 0 40px 0;
+
+}
+
+#contact h3 {
+
+	padding-top: 20px;
+
+	font-size: 20px;
+
+	font-weight: 400;
+
+	color: #43464b;
+
+}
+
+#contact form {
+
+	padding: 20px 0;
+
+}
+
+#contact i.fa {
+
+	color: #43464b;
+
+	margin-bottom: 10px;
+
+}
+
+#contact .text-danger {
+
+	color: #43464b;
+
+	text-align: left;
+
+}
+
+label {
+
+	font-size: 12px;
+
+	font-weight: 400;
+
+	float: left;
+
+}
+
+#contact .form-control {
+
+	display: block;
+
+	width: 100%;
+
+	padding: 6px 12px;
+
+	margin: 10px 0;
+
+	font-size: 14px;
+
+	line-height: 1.42857143;
+
+	color: #fff;
+
+	background-color: rgba(255,255,255,0.2);
+
+	background-image: none;
+
+	border: 0;
+
+	border-radius: 2px;
+
+	-webkit-box-shadow: none;
+
+	box-shadow: none;
+
+	-webkit-transition: none;
+
+	-o-transition: none;
+
+	transition: none;
+
+}
+
+#contact .form-control:focus {
+
+	border-color: inherit;
+
+	outline: 0;
+
+	-webkit-box-shadow: transparent;
+
+	box-shadow: transparent;
+
+}
+
+.form-control::-webkit-input-placeholder {
+
+color: #ccc;
+
+}
+
+.form-control:-moz-placeholder {
+
+color: #ccc;
+
+}
+
+.form-control::-moz-placeholder {
+
+color: #ccc;
+
+}
+
+.form-control:-ms-input-placeholder {
+
+color: #ccc;
+
+}
+
+#contact .btn {
+
+	margin-top: 20px;
+
+}
+
+#contact .social {
+
+	margin-top: 80px;
+
+}
+
+#contact .social ul li {
+
+	display: inline-block;
+
+	margin: 0 20px;
+
+}
+
+#contact .social i.fa {
+
+	font-size: 30px;
+
+	padding: 4px 5px;
+
+	color: #fff;
+
+	transition: all 0.5s;
+
+}
+
+#contact .social i.fa:hover {
+
+	color: #25BAD0;
+
+
+/* About Section */
+
+#about {
+
+	padding: 100px 0;
+
+	color:  #43464b;
+
+	background-color: #C8C8C8;
+}
+
+#about h2 {
+
+	color:  #43464b;
+
+}
+
+#about h4 {
+
+	color: #43464b;
+
+}
+
+#about .about-text {
+
+	margin-left: 10px;
+
+}
+
+#about p {
+
+	margin-top: 20px;
+
+	margin-bottom: 30px;
+
+}
+
+
+/* Team Section */
+
+#team {
+
+	padding: 100px 0;
+
+	color:  #43464b;
+
+	background-color: #C8C8C8;
+
+
+}
+
+#team h2 {
+
+	color: #43464b;
+
+}
+
+#team h3 {
+
+	color: #43464b;
+
+}
+
+img.img-circle.team-img {
+
+	width: 160px;
+
+	height: 160px;
+
+}
+
+#team .thumbnail {
+
+	background: transparent;
+
+	border: 0;
+
+}
+
+#team .thumbnail .caption {
+
+	padding: 9px;
+
+	color: #FFFFFF;
+
+}
+
+/* Footer Section*/
+
+#footer {
+
+	background: #408080;
+
+	padding: 25px 0 20px 0;
+
+}
+
+#footer p {
+
+	font-size: 13px;
+
+}
+
+#footer a {
+
+	color: #FFFFFF;
+
+}
+
+#footer a:hover {
+
+	color: #25BAD0;
+
+}
+
 

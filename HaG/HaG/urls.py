@@ -17,11 +17,14 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 from django.contrib.auth import views
-from HaG_app.forms import LoginForm
+import HaG_app.views as HaG_views
+from HaG_app.forms import LoginForm, SignUpForm
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('HaG_app.urls')),
-    url(r'^login/$', views.login, {'template_name': 'login.html', 'authentication_form': LoginForm}, name='login'), 
+    url(r'^login/$', views.login, {'template_name': 'login.html', 'authentication_form': LoginForm}, name='login'),
+    url(r'^signup/$', HaG_views.signup, name='signup'),
+    url(r'^about/$', HaG_views.about, name='about'), 
     url(r'^logout/$', views.logout, {'next_page': '/login'}),
 ]
